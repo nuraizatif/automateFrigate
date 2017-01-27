@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accordion</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <h3>Accordion</h3>
+                <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Serie A
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <div class="col-sm-12 col-xs-12 tab-style">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-xs-8">
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#acmilan" data-toggle="tab">AC Milan</a></li>
+                                                <li><a href="#inter" data-toggle="tab">FC Internazionale</a></li>
+                                                <li><a href="#juve" data-toggle="tab">Juventus</a></li>
+                                                <li><a href="#roma" data-toggle="tab">AS Roma</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4">
+                                            <div class="tab-content">
+                                                <div class="tab-pane active" id="acmilan"><img src="../img/13_after_press_buy_now.png" alt="" class="img-responsive"></div>
+                                                <div class="tab-pane" id="inter"><img src="../img/inter.jpg" alt="" class="img-responsive"></div>
+                                                <div class="tab-pane" id="juve"><img src="../img/juve.jpg" alt="" class="img-responsive"></div>
+                                                <div class="tab-pane" id="roma"><img src="../img/asroma.jpg" alt="" class="img-responsive"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of panel -->
+                    <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Premier League
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <div class="col-sm-12 col-xs-12 tab-style">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-xs-8">
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#arsenal" data-toggle="tab">Arsenal</a></li>
+                                                <li><a href="#liverpool" data-toggle="tab">Liverpool</a></li>
+                                                <li><a href="#mu" data-toggle="tab">Manchester United</a></li>
+                                                <li><a href="#chelsea" data-toggle="tab">Chelsea</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4">
+                                            <div class="tab-content">
+                                                <div class="tab-pane active" id="arsenal"><img src="../img/arsenal.jpg" alt="" class="img-responsive"></div>
+                                                <div class="tab-pane" id="liverpool"><img src="../img/lfc.jpg" alt="" class="img-responsive"></div>
+                                                <div class="tab-pane" id="mu"><img src="../img/mu.jpg" alt="" class="img-responsive"></div>
+                                                <div class="tab-pane" id="chelsea"><img src="../img/chelsea.jpg" alt="" class="img-responsive"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of panel -->
+                    <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Spanish Primera Division
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <div class="col-sm-12 col-xs-12 tab-style">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-xs-8">
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#realmadrid" data-toggle="tab">Real Madrid</a></li>
+                                                <li><a href="#barca" data-toggle="tab">Barcelona</a></li>
+                                                <li><a href="#atm" data-toggle="tab">Atletico Madrid</a></li>
+                                                <li><a href="#sevilla" data-toggle="tab">Sevilla</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4">
+                                            <div class="tab-content">
+                                                <div class="tab-pane active" id="realmadrid"><img src="../img/rm.jpg" alt="" class="img-responsive"></div>
+                                                <div class="tab-pane" id="barca"><img src="../img/barca.jpg" alt="" class="img-responsive"></div>
+                                                <div class="tab-pane" id="atm"><img src="../img/atm.jpg" alt="" class="img-responsive"></div>
+                                                <div class="tab-pane" id="sevilla"><img src="../img/sevilla.jpg" alt="" class="img-responsive"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of panel -->
+                </div>
+                <!-- end of #accordion -->
+            </div>
+            <!-- end of wrap -->
+        </div>
+    </div>
+    <!-- end of container -->
+    <script src="../js/jquery.min.js"></script>
+    <script src='../bootstrap-3.3.7-dist/js/bootstrap.min.js'></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
